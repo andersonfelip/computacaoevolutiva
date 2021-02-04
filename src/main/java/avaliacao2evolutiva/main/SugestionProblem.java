@@ -33,15 +33,14 @@ public class SugestionProblem extends Problem {
 		upperLimit_ = new double[numberOfVariables_];
 		lowerLimit_ = new double[numberOfVariables_];
 
-		// Establishes upper and lower limits for the variables
 		for (int var = 0; var < numberOfVariables_; var++) {
 			lowerLimit_[var] = 0.0;
 			upperLimit_[var] = 1.0;
 			precision_[var] = 30;
-		} // for
+		}
 		setPrecision(precision_);
+		
 		solutionType_ = new SugestionSolutionType(this);
-		//solutionType_ = new BinaryRealSolutionType(this);
 	}
 	
 	public static void getVariables() {

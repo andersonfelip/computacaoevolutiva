@@ -27,7 +27,7 @@ public class SugestionMain {
     SecurityException, 
     IOException, 
     ClassNotFoundException{
-		 Problem   problem   ; // The problem to solve
+		 	Problem   problem   ; // The problem to solve
 		    Algorithm algorithm ; // The algorithm to use
 		    Operator  selection ; // Selection operator
 		    
