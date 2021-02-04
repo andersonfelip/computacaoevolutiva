@@ -102,13 +102,13 @@ public class SugestionProblem extends Problem {
 	    	nome = new String (binaryVariable.bits_.toByteArray());
 	    	System.out.println(nome);
 	    	
-	    	if(SugestionProblem.records.get(evaluations).getFrequencyTotal() >= 5000) {
+	    	if(SugestionProblem.records.get(evaluations).getFrequencyTotal() >= 7000) {
 	    		counterNomeFrequente++;
 	    	}
-	    	if(SugestionProblem.records.get(evaluations).getFrequencyTotal() <= 1000) {
+	    	if(SugestionProblem.records.get(evaluations).getFrequencyTotal() <= 5000) {
 	    		counterNomeRaro++;
 	    	}
-	    	if(nome.length() >= 4) {
+	    	if(nome.length() >= 6) {
 	    		counterNomeGrande++;
 	    	}
 	    	if(!nome.toUpperCase().startsWith("A") && !nome.toUpperCase().startsWith("B") && !nome.toUpperCase().startsWith("C")){
