@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-02-04T19:15:08.343234700Z</date>
+  <millis>1612466108343</millis>
+  <nanos>234700</nanos>
+  <sequence>0</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>avaliacao2evolutiva.main.SugestionMain</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Total execution time: 23883ms</message>
+</record>
+<record>
+  <date>2021-02-04T19:15:08.461233800Z</date>
+  <millis>1612466108461</millis>
+  <nanos>233800</nanos>
+  <sequence>1</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>avaliacao2evolutiva.main.SugestionMain</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Total de Avaliações 33596</message>
+</record>
+</log>

@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.ufrpe</groupId>
+  <artifactId>avaliacao2evolutiva</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-core</artifactId>
+             <version>5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-lab</artifactId>
+            <version>5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-algorithm</artifactId>
+            <version>5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-problem</artifactId>
+            <version>5.10</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.uma.jmetal/jmetal -->
+		<dependency>
+		    <groupId>org.uma.jmetal</groupId>
+		    <artifactId>jmetal</artifactId>
+		    <version>5.10</version>
+		    <type>pom</type>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.uma.jmetal/jmetal-example -->
+<dependency>
+    <groupId>org.uma.jmetal</groupId>
+    <artifactId>jmetal-example</artifactId>
+    <version>5.10</version>
+</dependency>
+		<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.5.0</version>
+</dependency>
+		        
+    </dependencies>
+</project>
